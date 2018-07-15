@@ -16,6 +16,8 @@
         android:name="io.flutter.app.FlutterApplication"
         android:label="bus_passenger_client"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyB1nOXO0xgwsXiIkEVjJ2h1JqwwSA2s26Q"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
